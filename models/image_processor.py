@@ -67,10 +67,10 @@ class ImageProcessor:
             print(f"Error encoding image: {e}")
             return {"base64": None, "vector": None}
         
-    def find_closet_match(self, user_vector, dataset):
+    def find_closest_match(self, user_vector, dataset):
         """
-        Find the closet match in the dataset based on cosine similarity.
-        
+        Find the closest match in the dataset based on cosine similarity.
+
         Args:
             user_vector: Feature vector of the user_uploaded image.
             dataset: DataFrame containing precomputed image vectors.

@@ -14,5 +14,5 @@ IMAGE_FORMAT = "JPEG"
 # SIMILARITY SEARCH SETTINGS
 
 SIMILARITY_THRESHOLD = 0.8     # Minimum cosine similarity for match
-DEFAULT_ALTERNATIVES_COUNT = 5
 
+DATASET_PATH = "swift-style-embeddings.pkl"   
